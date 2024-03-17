@@ -28,7 +28,6 @@ body {
     color: #333;
 }
 
-
 /* Links */
 
   /* unvisited link */
@@ -88,7 +87,7 @@ font-size: 18px;
 h6 {
 font-family: var(--title-font);
 background: -webkit-linear-gradient(92.88deg, #9898d9 9.16%, #bf85cc 43.89%, #e099c7 64.72%);
--webkit-background-clip: text;
+background-clip: text;
 -webkit-text-fill-color: transparent;
 font-size: 25px;
 }
@@ -138,7 +137,6 @@ ul li a {
     text-decoration: none;
     display: block;
 }
-
 
 .banner-text {
     font-family: var(--pixel-font);
@@ -208,7 +206,6 @@ ul li a {
   top: 0;
 }
 
-
 /* Main Area */ 
 
 main {
@@ -222,7 +219,6 @@ section {
     margin-right: 25px;
     padding-bottom: 5rem;
 }
-
 
 /* Projects */
 
@@ -261,7 +257,6 @@ margin: 0;
   text-align: left;
   -webkit-box-shadow: 0px 0px 15px 8px rgba(77,57,64,0.07);
   box-shadow: 0px 0px 15px 8px rgba(77,57,64,0.07);
-
 }
 
 .projectimg {
@@ -387,7 +382,6 @@ margin: 0;
   
   .form-group {
     margin: 20px 0;
-
   }
   
   .form-group label {
@@ -425,7 +419,6 @@ margin: 0;
     cursor: pointer;
   }
   
-
   #backToTop {
     position: fixed;
     bottom: 2rem;
@@ -520,7 +513,6 @@ small {
   grid-gap: 1rem;
   align-items:stretch;
 }
-
 
 .grid-img {
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
@@ -689,7 +681,6 @@ ul.responsive li {
   margin-bottom: -2rem;
 
 }
-
 
 #projects {
   margin: 0%;
