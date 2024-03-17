@@ -96,7 +96,7 @@ font-size: 25px;
 /* Header Area */
 
 .banner {
-  background-image: url("/Portfolio/5tausta.png");
+  background-image: url("https://raw.githubusercontent.com/hetti-r/hetti-r.github.io/main/5tausta.png");
   height:52rem;
   width: 100%;
   background-position: center;
@@ -185,7 +185,7 @@ ul li a {
 
 main {
   /* background: linear-gradient(0deg, var(--secondary-color) 79%, #6c859c 100%); */
-background-image:url("/Portfolio/3tausta.png");
+background-image:url("https://raw.githubusercontent.com/hetti-r/hetti-r.github.io/main/3tausta.png");
 }
 
 section {
@@ -430,7 +430,7 @@ footer {
     font-size: 15px;
     text-align: center;
     background-color: var(--footer-color);
-    background-image: url(/Portfolio/kukat.png);
+    background-image: url(https://raw.githubusercontent.com/hetti-r/hetti-r.github.io/main/kukat.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
@@ -484,7 +484,7 @@ small {
   width: 100%;
   text-align: center;
   padding-top: 7rem;
-  background-image: url(/Portfolio/3tausta.png);
+  background-image: url(https://raw.githubusercontent.com/hetti-r/hetti-r.github.io/main/3tausta.png);
 }
 
 #gallery-grid-container {
