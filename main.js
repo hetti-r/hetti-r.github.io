@@ -4,18 +4,22 @@ const mobButton = document.querySelector(".mobile");
 const nav = document.querySelector("nav ul");
 const menuItems = document.querySelectorAll("nav ul li a");
 
-/* hidden navbar */
+/* index hanging navbar on scroll */
 
 window.addEventListener("scroll", function () {
   let header = document.querySelector("#navbar");
-  header.classList.toggle("sticky", window.scrollY > 0);
+  if (header != null) {
+    header.classList.toggle("sticky", window.scrollY > 0);
+  }
 });
 
-/*color changing navbar */
+/* gallery changing navbar on scroll */
 
 window.addEventListener("scroll", function () {
-  let header2 = document.querySelector("#navbar2");
-  header2.classList.toggle("sticky", window.scrollY > 0);
+  let header = document.querySelector("#navbar2");
+  if (header != null) {
+    header.classList.toggle("sticky", window.scrollY > 0);
+  }
 });
 
 /* Back to top button */
