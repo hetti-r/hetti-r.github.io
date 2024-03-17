@@ -6,16 +6,16 @@ const menuItems = document.querySelectorAll("nav ul li a");
 
 /* hidden navbar */
 
-window.addEventListener('scroll', function() {
-  let header = document.querySelector('#navbar');
-  header.classList.toggle('sticky', window.scrollY > 0);
+window.addEventListener("scroll", function () {
+  let header = document.querySelector("#navbar");
+  header.classList.toggle("sticky", window.scrollY > 0);
 });
 
 /*color changing navbar */
 
-window.addEventListener('scroll', function() {
-  let header = document.querySelector('#navbar2');
-  header.classList.toggle('sticky', window.scrollY > 0);
+window.addEventListener("scroll", function () {
+  let header2 = document.querySelector("#navbar2");
+  header2.classList.toggle("sticky", window.scrollY > 0);
 });
 
 /* Back to top button */
@@ -51,4 +51,3 @@ const toggleMenu = () => {
 
 mobButton.addEventListener("click", toggleMenu);
 menuItems.forEach((item) => item.addEventListener("click", toggleMenu));
-
