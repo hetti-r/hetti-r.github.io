@@ -597,13 +597,14 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 #navbar2 {
   padding: 1vw;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
+  justify-content:space-around;
+  width: 100vw;
+  text-align: center;
 }
 
 #navbar a {
@@ -624,7 +625,7 @@ height: fit-content;
   margin-top: 7.3rem;
 }
 .banner-text {
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   text-align: center;
   margin-top: 0.4rem;
   margin-right: 1.2vw;
@@ -731,18 +732,33 @@ ul.responsive li {
 }
 
 #skills {
+  padding: 0;
   padding-bottom: 12vw;
 }
 
 #skills h2 {
-  padding-bottom: 0.5rem;
+
+  padding-bottom: 1rem;
+}
+
+#skills h5 {
+  padding-bottom: 1rem;
+  margin-top: 0.1rem;
+  font-size: 11px;
+}
+
+.skillbox-bar {
+  margin: -0.4rem;
+  padding: 0;
+  width: 12vw;
 }
 
 .skillbox {
-  width: 20vw;
-  height: 15vw;
-  padding-top: 8vw;
-  padding-bottom: 13vw;
+  width: 25vw;
+  height: 30vw;
+  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   margin: 1vw;
   display: flex;
   justify-content: center;
@@ -751,9 +767,10 @@ ul.responsive li {
 }
 
 .skillbox-img {
-  max-width: 10vw;
+  max-width: 12vw;
+  padding-top: 1.5rem;
   align-self: center;
-  padding-bottom: 3rem;
+  padding-bottom: 0;
 }
 
 
@@ -761,12 +778,17 @@ small {
   padding-bottom: 5rem;
 }
 
+#formcontainer {
+  width: 100vw;
+  padding: 2rem;
+}
+
 .form-wrap {
   margin-bottom: -3rem;
 }
 
 #gallery {
-  padding-top: 4rem;
+  padding-top: 6rem;
 
 }
 
